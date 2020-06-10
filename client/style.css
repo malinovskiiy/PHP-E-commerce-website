@@ -1,0 +1,142 @@
+/*   Sass Template   */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/*   Global classes  */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Typography classes */
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-25 {
+  font-size: 25px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+/* Colors */
+.color-primary {
+  color: #34495e;
+}
+
+.bg-color-primary {
+  background-color: #34495e;
+}
+
+.color-secondary {
+  color: #00A4C4;
+}
+
+.bg-color-secondary {
+  background-color: #00A4C4;
+}
+
+.color-yellow {
+  color: #f1c40f;
+}
+
+.bg-color-yellow {
+  background-color: #f1c40f;
+}
+
+/* Top sale */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.3s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #34495e;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+/* Special price section */
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* New phones */
+#new-phones .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#new-phones .owl-carousel .item .product img {
+  transition: transform 0.3s ease;
+}
+#new-phones .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#new-phones .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#new-phones .owl-carousel .owl-nav button.owl-prev span,
+#new-phones .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #34495e;
+  padding: 0 1rem;
+}
+#new-phones .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#new-phones .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+#new-phones .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#new-phones .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+/*# sourceMappingURL=style.css.map */
