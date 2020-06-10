@@ -10,4 +10,7 @@ Mobile phones shop made with pure PHP
 * Calculate subtotal
 * Add some amount of products(2 or 3 etc.)
 
+![GitHub Logo](/assets/Banner1.png)
+
+
 
